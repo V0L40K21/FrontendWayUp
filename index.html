@@ -7,6 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Document</title>
+    <link rel="stylesheet" href="css/animate.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap"
       rel="stylesheet"
@@ -16,9 +17,9 @@
   <body>
     <header class="header">
       <div class="container">
-        <img src="img/logo.png" alt="WayUp" class="logo" />
+        <img src="img/logo.png" alt="WayUp" class="logo animated fadeInLeft" />
         <div class="wrapper">
-          <div class="offer">
+          <div class="offer animated fadeInLeft">
             <h1 class="offer_title">
               С помощью верстки<br />
               я создам ту жизнь, о которой<br />
@@ -30,16 +31,16 @@
             </p>
             <a href="#" class="btn">Двигаться к мечте!</a>
           </div>
-          <img src="img/Travel.png" alt="Travel" class="travel" />
+          <img src="img/Travel.png" alt="Travel" class="travel animated fadeInRight" />
         </div>
       </div>
     </header>
-    <section class="future">
+    <section class="future" id="future">
       <div class="container">
-        <h2 class="title">
+        <h2 class="title animated">
           Что меня ждет впереди
         </h2>
-        <div class="future_wrapper">
+        <div class="future_wrapper animated">
           <div class="item">
             <img src="img/icon1.jpg" alt="Time" />
             <h3>
@@ -74,10 +75,10 @@
     </section>
     <section class="connection">
       <div class="container">
-        <h2 class="title">
+        <h2 class="title animated">
           Форма заказа билета в будудщее
         </h2>
-        <div class="form">
+        <div class="form animated">
           <form action="#" name="connect">
             <input type="text" class="input" placeholder="Имя" required />
             <input type="email" class="input" placeholder="E-mail" required />
@@ -98,5 +99,7 @@
         <p class="copy">© Все мои мечты защищены моим трудолюбием</p>
       </div>
     </footer>
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
